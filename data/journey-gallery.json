@@ -1,0 +1,53 @@
+[
+  {
+    "id": "my-journey-5",
+    "title": "Beach",
+    "location": "Miami",
+    "image": "/journey/beach.webp",
+    "orientation": "portrait"
+  },
+  {
+    "id": "my-journey-4",
+    "title": "Sunset",
+    "location": "California",
+    "image": "/journey/photo-vice-versa.webp",
+    "orientation": "portrait"
+  },
+  {
+    "id": "my-journey-2",
+    "title": "Portrait lens",
+    "location": "Paris",
+    "image": "/journey/portrait-lens.webp",
+    "orientation": "portrait"
+  },
+  {
+    "id": "my-journey-1",
+    "title": "Scenic mountains",
+    "location": "Himalayas",
+    "image": "/journey/mountains.webp",
+    "orientation": "landscape"
+  },
+
+  {
+    "id": "my-journey-3",
+    "title": "Mountains",
+    "location": "Ohio",
+    "image": "/journey/usa-mountains.webp",
+    "orientation": "landscape"
+  },
+  {
+    "id": "my-journey-8",
+    "title": "Sunset",
+    "location": "Greece",
+    "image": "/journey/greece.webp",
+    "isFiller": true,
+    "orientation": "portrait"
+  },
+  {
+    "id": "my-journey-7",
+    "title": "Underwater",
+    "location": "Maldives",
+    "image": "/journey/underwater.webp",
+    "orientation": "portrait"
+  }
+]
