@@ -4,6 +4,7 @@ import './globals.css';
 import Header from '@/components/modules/UI/Header/HeaderContent';
 import { cn } from '@/lib/utils';
 import MotionLayout from '@/components/modules/UI/MotionLayout';
+import MagicCursor from '@/components/elements/MagicCursor';
 
 const montserrat = Montserrat({
   subsets: ['latin'],
@@ -34,6 +35,7 @@ export default function RootLayout({
           Welcome to the Photographer Portfolio - a template built to showcase how to structure a portfolio
           for a photographer.
         </h1>
+        <MagicCursor />
         <MotionLayout>{children}</MotionLayout>
       </body>
     </html>
