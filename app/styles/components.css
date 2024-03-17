@@ -1,0 +1,32 @@
+@tailwind components;
+
+@layer components {
+  .heading-1 {
+    @apply text-7xl font-bold tracking-tight;
+  }
+
+  .heading-2 {
+    @apply text-4xl font-normal tracking-normal;
+  }
+
+  .subtitle {
+    @apply text-lg font-light tracking-wider font-sans;
+  }
+
+  .text {
+    @apply text-base font-normal tracking-wider transition-colors;
+  }
+
+  .sticky-header {
+    @apply !bg-white !text-black;
+  }
+
+  /* links */
+  .navlink {
+    @apply relative px-4 py-2 text-base font-normal tracking-normal  before:absolute before:-bottom-2 before:right-0 before:h-[0.1rem] before:w-0 before:rounded-sm before:bg-gray-500 hover:text-black hover:before:left-0 hover:before:w-full dark:text-gray-400 dark:before:bg-white dark:hover:text-white;
+  }
+
+  .navlink::before {
+    transition: right 0.4s, width 0.4s, left 0.4s;
+  }
+}
