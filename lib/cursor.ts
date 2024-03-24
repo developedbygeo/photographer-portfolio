@@ -1,3 +1,4 @@
+import { ZOOM_CURSOR_ELEMENTS } from '@/data/enums';
 import { isClient } from '@/lib/utils';
 
 export const initCursor = () => {
@@ -29,11 +30,11 @@ export const initCursor = () => {
     mouseY = e.clientY;
   });
 
-  const link = document.querySelectorAll('a, button, [data-cursor="hover"], [data-cursor="click"]');
+  const link = document.querySelectorAll(
+    `${ZOOM_CURSOR_ELEMENTS.ANCHOR_TAG}, ${ZOOM_CURSOR_ELEMENTS.BUTTON}, ${ZOOM_CURSOR_ELEMENTS.HOVER_CURSOR}, ${ZOOM_CURSOR_ELEMENTS.CLICK_CURSOR}`
+  );
 
   const lightElements = document.querySelectorAll('[data-bg-color="light"]');
-
-  console.log(lightElements);
 
   lightElements.forEach((lightElement) => {
     lightElement.addEventListener('mouseenter', () => {
