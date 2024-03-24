@@ -25,7 +25,8 @@
     "tailwind-merge": "^2.2.1",
     "tailwind-scrollbar": "^3.1.0",
     "tailwindcss-animate": "^1.0.7",
-    "tailwindcss-fluid-type": "^2.0.3"
+    "tailwindcss-fluid-type": "^2.0.3",
+    "vaul": "^0.9.0"
   },
   "devDependencies": {
     "@svgr/webpack": "^8.1.0",
