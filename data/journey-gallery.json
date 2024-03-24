@@ -1,53 +1,147 @@
 [
   {
     "id": "my-journey-5",
-    "title": "Beach",
-    "location": "Miami",
-    "image": "/journey/beach.webp",
-    "orientation": "portrait"
+    "thumbnail": "/journey/beach.webp",
+    "className": "md:col-span-2",
+    "textual": {
+      "title": "Beach",
+      "location": "Miami",
+      "description": "I love the beach"
+    },
+    "tech": {
+      "Camera Model": "Canon EOS R5",
+      "Lens Used": "RF 28-70mm F2 L USM",
+      "Aperture": "f/2.8",
+      "Shutter Speed": "1/640 sec"
+    }
   },
   {
     "id": "my-journey-4",
-    "title": "Sunset",
-    "location": "California",
-    "image": "/journey/photo-vice-versa.webp",
-    "orientation": "portrait"
+    "thumbnail": "/journey/photo-vice-versa.webp",
+    "className": "col-span-1",
+    "textual": {
+      "title": "Sunset",
+      "location": "California",
+      "description": "Sunset in California"
+    },
+    "tech": {
+      "Camera Model": "Nikon Z7",
+      "Lens Used": "Nikkor Z 24-70mm f/4 S",
+      "Aperture": "f/4",
+      "Shutter Speed": "1/200 sec"
+    }
   },
   {
     "id": "my-journey-2",
-    "title": "Portrait lens",
-    "location": "Paris",
-    "image": "/journey/portrait-lens.webp",
-    "orientation": "portrait"
+    "thumbnail": "/journey/portrait-lens.webp",
+    "className": "col-span-1",
+    "textual": {
+      "title": "Portrait lens",
+      "location": "Paris",
+      "description": "Portrait lens in Paris"
+    },
+    "tech": {
+      "Camera Model": "Nikon D850",
+      "Lens Used": "Nikkor 85mm f/1.4G",
+      "Aperture": "f/1.4",
+      "Shutter Speed": "1/800 sec"
+    }
   },
   {
     "id": "my-journey-1",
-    "title": "Scenic mountains",
-    "location": "Himalayas",
-    "image": "/journey/mountains.webp",
-    "orientation": "landscape"
+    "thumbnail": "/journey/mountains.webp",
+    "className": "md:col-span-2",
+    "textual": {
+      "title": "Scenic mountains",
+      "location": "Himalayas",
+      "description": "Scenic mountains in Himalayas"
+    },
+    "tech": {
+      "Camera Model": "Fujifilm X-T3",
+      "Lens Used": "XF56mmF1.2 R",
+      "Aperture": "f/1.2",
+      "Shutter Speed": "1/500 sec"
+    }
   },
-
   {
     "id": "my-journey-3",
-    "title": "Mountains",
-    "location": "Ohio",
-    "image": "/journey/usa-mountains.webp",
-    "orientation": "landscape"
+    "thumbnail": "/journey/usa-mountains.webp",
+    "className": "md:col-span-2",
+    "textual": {
+      "title": "Mountains",
+      "location": "Ohio",
+      "description": "Mountains of Ohio"
+    },
+    "tech": {
+      "Camera Model": "Olympus OM-D E-M10 Mark IV",
+      "Lens Used": "M.Zuiko Digital ED 14-42mm F3.5-5.6 EZ",
+      "Aperture": "f/5.6",
+      "Shutter Speed": "1/250 sec"
+    }
   },
   {
     "id": "my-journey-8",
-    "title": "Sunset",
-    "location": "Greece",
-    "image": "/journey/greece.webp",
-    "isFiller": true,
-    "orientation": "portrait"
+    "thumbnail": "/journey/greece.webp",
+    "className": "col-span-1",
+    "textual": {
+      "title": "Sunset",
+      "location": "Greece",
+      "description": "Village in Greek island"
+    },
+    "tech": {
+      "Camera Model": "Nikon Z7",
+      "Lens Used": "Nikkor Z 24-70mm f/4 S",
+      "Aperture": "f/4",
+      "Shutter Speed": "1/200 sec"
+    }
   },
   {
+    "id": "my-journey-6",
+    "thumbnail": "/journey/sunset-africa.webp",
+    "className": "col-span-1",
+    "textual": {
+      "title": "Sunset in the desert",
+      "location": "Africa",
+      "description": "Antilopes running away in the desert"
+    },
+    "tech": {
+      "Camera Model": "Sony A7R IV",
+      "Lens Used": "Sony FE 24-70mm f/2.8 GM",
+      "Aperture": "f/8",
+      "Shutter Speed": "1/250 sec"
+    }
+  },
+
+  {
     "id": "my-journey-7",
-    "title": "Underwater",
-    "location": "Maldives",
-    "image": "/journey/underwater.webp",
-    "orientation": "portrait"
+    "thumbnail": "/journey/city-europe.webp",
+    "className": "col-span-1",
+    "textual": {
+      "title": "A still city",
+      "location": "Austria",
+      "description": "City views in Austria"
+    },
+    "tech": {
+      "Camera Model": "Olympus OM-D E-M10 Mark IV",
+      "Lens Used": "M.Zuiko Digital ED 14-42mm F3.5-5.6 EZ",
+      "Aperture": "f/5.6",
+      "Shutter Speed": "1/250 sec"
+    }
+  },
+  {
+    "id": "my-journey-9",
+    "thumbnail": "/journey/amalfi.webp",
+    "className": "col-span-1",
+    "textual": {
+      "title": "By the coast",
+      "location": "Italy",
+      "description": "Views from Amalfi"
+    },
+    "tech": {
+      "Camera Model": "Fujifilm X-T3",
+      "Lens Used": "XF56mmF1.2 R",
+      "Aperture": "f/1.2",
+      "Shutter Speed": "1/500 sec"
+    }
   }
 ]
