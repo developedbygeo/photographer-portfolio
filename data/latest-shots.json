@@ -1,0 +1,66 @@
+[
+  {
+    "id": "latest-shots-1",
+    "name": "Urban Colors",
+    "thumbnail": "/latest-shots/urban-colors.webp",
+    "extendColSpan": true,
+    "info": {
+      "location": "Lithuania, Vilnius",
+      "date": "November, 2022"
+    },
+    "tech": {
+      "Camera Model": "Canon EOS R5",
+      "Lens Used": "RF 28-70mm F2 L USM"
+    }
+  },
+  {
+    "id": "latest-shots-2",
+    "name": "Couple Sunset",
+    "thumbnail": "/latest-shots/couple-sunset.webp",
+    "extendColSpan": false
+  },
+  {
+    "id": "latest-shots-3",
+    "name": "New York City",
+    "thumbnail": "/latest-shots/nyc.webp",
+    "extendColSpan": false
+  },
+  {
+    "id": "latest-shots-4",
+    "name": "Self Portrait",
+    "thumbnail": "/latest-shots/self-portrait.webp",
+    "extendColSpan": true
+  },
+  {
+    "id": "latest-shots-5",
+    "name": "Helsinki",
+    "thumbnail": "/latest-shots/helsinki.webp",
+    "extendColSpan": true
+  },
+  {
+    "id": "latest-shots-6",
+    "name": "Tokyo",
+    "thumbnail": "/latest-shots/tokyo.webp",
+    "extendColSpan": false
+  },
+  {
+    "id": "latest-shots-7",
+    "name": "By the beach",
+    "thumbnail": "/latest-shots/beachside.webp",
+    "extendColSpan": false
+  },
+  {
+    "id": "latest-shots-8",
+    "name": "Zante",
+    "info": {
+      "location": "Greece, Zakynthos",
+      "date": "August, 2022"
+    },
+    "tech": {
+      "Camera Model": "Nikon Z6",
+      "Lens Used": "Nikkor Z 24-70mm f/4 S"
+    },
+    "thumbnail": "/latest-shots/zante.webp",
+    "extendColSpan": true
+  }
+]
