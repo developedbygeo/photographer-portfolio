@@ -22,6 +22,10 @@ export const ImageGrid = ({ cards }: { cards: Card[] }) => {
   const handleClick = (card: Card) => {
     setLastSelected(selected);
     setSelected(card);
+
+    if (selected?.id === card.id) {
+      setSelected(null);
+    }
   };
 
   const handleOutsideClick = () => {
