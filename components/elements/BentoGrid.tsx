@@ -1,7 +1,7 @@
 import Image from 'next/image';
 
 import { cn } from '@/lib/utils';
-import { WithClassName } from '@/types/UI';
+import { WithChildren, WithClassName } from '@/types/UI';
 
 export const SimpleImageBento = ({
   className,
@@ -22,30 +22,24 @@ export const SimpleImageBento = ({
   );
 };
 
-type SimpleImageBentoItemProps = WithClassName & {
-  id: string;
-  title: string;
-  description?: string;
-  image: string;
-};
+type SimpleImageBentoItemProps = WithClassName &
+  WithChildren & {
+    title: string;
+    image: string;
+  };
 
-export const SimpleImageBentoItem = ({
-  id,
-  title,
-  description,
-  image,
-  className,
-}: SimpleImageBentoItemProps) => {
+export const SimpleImageBentoItem = ({ className, title, image, children }: SimpleImageBentoItemProps) => {
   const sizes = `(max-width: 600px) 100vw, (max-width: 900px) 50vw, 33vw`;
 
   return (
     <div
       className={cn(
-        'row-span-1 relative rounded-xl group/bento hover:shadow-xl transition duration-200 shadow-input dark:shadow-none p-4 dark:bg-black dark:border-white/[0.2] bg-white border border-transparent justify-between flex flex-col space-y-4',
+        'row-span-1 relative rounded-xl group/bento transition duration-200 shadow-input dark:shadow-none p-4 dark:bg-black dark:border-white/[0.2] bg-white border border-transparent justify-between flex flex-col space-y-4',
         className
       )}
     >
       <Image src={image} alt={title} fill className="object-cover" sizes={sizes} />
+      {children}
     </div>
   );
 };
